@@ -10,8 +10,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        {/* VeroBehavior snippet - uncomment to activate behavioral tracking */}
-        {/* <script src="https://verobehavior.vercel.app/api/snippet?key=nexflow" async /> */}
+        <script
+          src="https://verobehavior.vercel.app/api/snippet?key=nexflow"
+          async
+        />
       </head>
       <body>{children}</body>
     </html>
